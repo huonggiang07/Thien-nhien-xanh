@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khám Phá Thiên Nhiên - Trang Chủ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Yêu cầu 3: Liên kết Bỏ qua đến Nội dung chính -->
+    <a href="#main-content" class="skip-link">Bỏ qua đến Nội dung chính</a>
+
+    <!-- Yêu cầu 7: Sử dụng Flexbox cho thanh điều hướng -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Thiên Nhiên Xanh</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Trang Chủ</a></li>
+                <li><a href="gallery.html">Thư Viện Ảnh</a></li>
+                <li><a href="contact.html">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero">
+            <h1>Vẻ Đẹp Kỳ Diệu Của Thiên Nhiên</h1>
+            <p>Hành trình khám phá rừng xanh, đại dương và những ngọn núi hùng vĩ.</p>
+        </section>
+
+        <!-- Yêu cầu 6: Sử dụng CSS Grid (2 cột) -->
+        <section class="grid-container">
+            <h2 class="sr-only">Danh mục hệ sinh thái</h2>
+            <article class="grid-item">
+                <h3>Rừng Nguyên Sinh</h3>
+                <img src="https://images.unsplash.com/photo-1776577062316-07b0141023b8?w=800" alt="Khu rừng nguyên sinh xanh mát với ánh nắng ban mai rọi qua kẽ lá">
+                <p>Rừng đóng vai trò quan trọng trong việc cân bằng hệ sinh thái và cung cấp oxy cho Trái Đất.</p>
+            </article>
+            <article class="grid-item">
+                <h3>Đại Dương Bao La</h3>
+                <img src="https://images.unsplash.com/photo-1753029995957-f973b37fd0e3?w=800" alt="Bãi biển cát trắng mịn cùng nước biển xanh ngọc bích trong vắt">
+                <p>Biển và đại dương chiếm hơn 70% diện tích bề mặt Trái Đất với hệ sinh thái vô cùng phong phú.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Bản quyền thuộc về Dự án Thiên Nhiên.</p>
+    </footer>
+</body>
+</html>
